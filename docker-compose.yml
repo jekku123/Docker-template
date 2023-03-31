@@ -1,7 +1,7 @@
 version: '3.8'
 services:
   php-apache-environment:
-    container_name: docker-template
+    container_name: DOCKER_NAME_HERE
     build:
       context: ./client
       dockerfile: Dockerfile
@@ -12,7 +12,7 @@ services:
     ports:
       - 8090:80
   db:
-    container_name: projectDB
+    container_name: DB_NAME_HERE
     image: mysql
     restart: always
     environment:
