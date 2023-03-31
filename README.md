@@ -10,4 +10,4 @@ docker-compose up
 
 to access go to:
 
-http://localhost:8090/project/
+http://localhost:8090/page/
