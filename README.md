@@ -4,14 +4,12 @@ Docker template for projects
 
 ## Setup
 
-In docker-compose.yml file find:
+In docker-compose.yml file:
 
 ```file
 container_name: DOCKER_NAME_HERE,
 container_name: DB_NAME_HERE
 ```
-
-and change the XX_NAME_HERE's to your liking.
 
 In terminal:
 
