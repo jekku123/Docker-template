@@ -1,7 +1,7 @@
 version: '3.8'
 services:
   php-apache-environment:
-    container_name: php-project
+    container_name: docker-template
     build:
       context: ./client
       dockerfile: Dockerfile
